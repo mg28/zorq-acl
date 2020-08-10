@@ -1,0 +1,26 @@
+[package]
+name = "zorq-acl"
+version = "0.1.0"
+authors = ["Marc Göldner <zorq@posteo.at>"]
+license = "MIT"
+edition = "2018"
+
+description = "Lightweigth and flexible access control list (ACL) implementation for privilege management."
+readme = "README.md"
+
+homepage = "https://github.com/mg28/zorq-acl"
+repository = "https://github.com/mg28/zorq-acl"
+documentation = "https://docs.rs/zorq-acl"
+
+keywords = ["access-control-lists", "acl", "privilege-management"]
+
+[dependencies]
+log = "0.4"
+
+[dev-dependencies]
+env_logger = "0.7"
+test-env-log = "0.2"
+
+[[example]]
+name = "simple"
+path = "examples/simple.rs"
